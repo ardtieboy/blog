@@ -6,6 +6,7 @@ import get from 'lodash/get'
 import Bio from '../components/Bio'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
+import SocialMediaBar from '../components/SocialMediaBar';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -39,6 +40,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
+        <SocialMediaBar />
 
         <ul
           style={{
@@ -51,7 +53,7 @@ class BlogPostTemplate extends React.Component {
         >
           <li>
             {
-              previous &&
+              previous && previous.fields.slug.toString().indexOf("blog") > 0 &&
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
@@ -59,7 +61,7 @@ class BlogPostTemplate extends React.Component {
           </li>
           <li>
             {
-              next &&
+              next && next.fields.slug.toString().indexOf("blog") > 0 &&
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>

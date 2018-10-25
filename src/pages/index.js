@@ -26,7 +26,8 @@ class BlogIndex extends React.Component {
         />
         <Bio />
         <SocialMediaBar style={{ textDecoration: 'none' ,textDecorationLine: 'none' }}></SocialMediaBar> 
-        {posts.map(({ node }) => {
+        {posts
+        .map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
@@ -59,7 +60,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(filter: { frontmatter: { type: {eq:"Blogpost"} } }, sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt

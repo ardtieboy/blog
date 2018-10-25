@@ -3,8 +3,9 @@ import React from 'react'
 // Import typefaces
 import 'typeface-montserrat'
 import 'typeface-merriweather'
+import { Link } from 'gatsby'
 
-import profilePic from './profile-pic.jpg'
+import profilePic from '../assets/profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
@@ -26,10 +27,18 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Ard Scheirlynck</strong> who lives and works in Gullegem, Belgium.{' '}
-          <a href="https://twitter.com/Ard_Scheirlynck">
-            You should follow him on Twitter
-          </a>
+          Written by <strong>Ard Scheirlynck</strong>. <br/>
+          <i>Geek. Programmer. Gamer.</i>{' '}
+          <Link
+            style={{
+              fontStyle: 'italic',
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
+            to={'/whoami/'}
+          >
+            More...
+          </Link>
         </p>
       </div>
     )
