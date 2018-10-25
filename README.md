@@ -7,3 +7,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 ## Running in development
 `gatsby develop`
+
+## Deploying
+
+    npm run deploy
