@@ -23,4 +23,4 @@ Tomorrow, Nalu is two months a part of our family and already four months old. S
 
 ![nalu4](./nalu4.jpg)
 
-On November 11 I live exactly one year together with my girlfriend in our apartment. In that year, we bought a lot of stuff, but I can honestly say Nalu was the best purchase of the last decade. I love my doggo so much and I I would not be able to miss him anymore. 
+On November 11 I live exactly one year together with my girlfriend in our apartment. In that year, we bought a lot of stuff, but I can honestly say Nalu was the best purchase of the last decade. I love my doggo so much and I would not be able to miss him anymore. 
