@@ -44,7 +44,7 @@ module.exports = {
         // Puts tracking script in the head instead of the body
         head: true,
       },
-    }
+    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
