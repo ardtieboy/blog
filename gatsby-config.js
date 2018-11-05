@@ -43,9 +43,6 @@ module.exports = {
         trackingId: "UA-118393746-2",
         // Puts tracking script in the head instead of the body
         head: true,
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
       },
     }
     `gatsby-plugin-feed`,
