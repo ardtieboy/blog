@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 import profilePic from '../assets/profile-pic.jpg'
 
-
 import SocialMediaBar from '../components/SocialMediaBar';
 
 class WhoAmiI extends React.Component {
@@ -62,6 +61,8 @@ class WhoAmiI extends React.Component {
           I hope to hear you soon!
 
         </p> 
+
+        <SocialMediaBar />
 
         <hr
           style={{
