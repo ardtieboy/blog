@@ -16,7 +16,9 @@ class WhoAmiI extends React.Component {
           htmlAttributes={{ lang: 'en' }}
           title="WhoAmI?"
         />
-        <h1>WhoAmI?</h1>
+        <h1 style={{
+            marginTop: rhythm(2),
+          }}>WhoAmI?</h1>
         <h2
           style={{
             display: 'block',

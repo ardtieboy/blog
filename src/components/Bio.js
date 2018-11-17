@@ -31,9 +31,7 @@ class Bio extends React.Component {
           <i>Geek. Programmer. Gamer.</i>{' '}
           <Link
             style={{
-              fontStyle: 'italic',
-              textDecoration: 'none',
-              color: 'inherit',
+              boxShadow: 'none', 
             }}
             to={'/whoami/'}
           >
