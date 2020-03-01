@@ -1,3 +1,5 @@
+**This thing is outdated. Please check out the personal_website_repo**
+
 # gatsby-starter-blog
 Gatsby starter for creating a blog
 
